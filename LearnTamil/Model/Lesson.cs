@@ -14,19 +14,19 @@ namespace LearnTamil
         public string Uri { get; private set; }
         public IList<Fact> Facts { get; private set; }
 
-        public Lesson(XElement xml, int lessonId)
+        public Lesson(XElement xml)
         {
             this.Name = xml.Attribute("Name").Value;
-            this.Id = lessonId.ToString();
-            this.Uri = String.Format("/View/Learn.xaml?lessonId={0}", lessonId);
-            this.Facts = this.GetFacts(xml, lessonId).ToList();
+            this.Id = xml.Attribute("Id").Value;
+            this.Uri = String.Format("/View/Learn.xaml?lessonId={0}", this.Id);
+            this.Facts = this.GetFacts(xml).ToList();
         }
 
-        private IEnumerable<Fact> GetFacts(XElement xml, int lessonId)
+        private IEnumerable<Fact> GetFacts(XElement xml)
         {
             var factId = 1;
             return from fact in xml.Elements("Fact")
-                   select new Fact(fact, lessonId, factId++);
+                   select new Fact(fact, this.Id, factId++);
         }
     }
 }

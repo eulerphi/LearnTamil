@@ -17,10 +17,9 @@ namespace LearnTamil
         private IEnumerable<Lesson> GetLessons()
         {
             var xml = this.LoadLessonsXml();
-            var lessonId = 1;
 
             return from lesson in xml.Element("Lessons").Elements("Lesson")
-                   select new Lesson(lesson, lessonId++);
+                   select new Lesson(lesson);
         }
 
         private XDocument LoadLessonsXml()

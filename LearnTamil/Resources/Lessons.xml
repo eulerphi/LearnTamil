@@ -1,164 +1,164 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Lessons>
-  <Lesson Name="Verbs">
+  <Lesson Name="Verbs" Id="1">
     <Fact Question="sit" Answer="utkār" />
     <Fact Question="go" Answer="pō" />
     <Fact Question="come" Answer="vā" />
-    <Fact Question="see" Answer="pǎr" />
-    <Fact Question="touch" Answer="thǒdu" />
+    <Fact Question="see" Answer="pār" />
+    <Fact Question="touch" Answer="thodu" />
     <Fact Question="throw" Answer="veesu" />
   </Lesson>
-  <Lesson Name="Adverbs">
+  <Lesson Name="Adverbs" Id="2">
     <Fact Question="down" Answer="keezhae" />
-    <Fact Question="outside" Answer="velhiyae" />
-    <Fact Question="there" Answer="ǎngae" />
+    <Fact Question="outside" Answer="veLiyae" />
+    <Fact Question="there" Answer="angae" />
     <Fact Question="here" Answer="ingae" />
-    <Fact Question="inside" Answer="ullhae" />
+    <Fact Question="inside" Answer="ulLae" />
     <Fact Question="up" Answer="maelae" />
   </Lesson>
-  <Lesson Name="Commands">
-    <Fact Question="look there" Answer="ǎngae pār" />
+  <Lesson Name="Commands" Id="3">
+    <Fact Question="look there" Answer="angae pār" />
     <Fact Question="come up" Answer="maelae vā" />
     <Fact Question="sit down" Answer="keezhae utkār" />
-    <Fact Question="go inside" Answer="ullhae pō" />
-    <Fact Question="throw outside" Answer="velhiyae veesu"/>
+    <Fact Question="go inside" Answer="ulLae pō" />
+    <Fact Question="throw outside" Answer="veLiyae veesu"/>
   </Lesson>
-  <Lesson Name="Pronouns">
-    <Fact Question="she" Answer="ǎvǎlh" />
-    <Fact Question="they (things)" Answer="ǎvÏ" />
+  <Lesson Name="Pronouns" Id="4">
+    <Fact Question="she" Answer="avaL" />
+    <Fact Question="they (things)" Answer="avÏ" />
     <Fact Question="I" Answer="nān" />
-    <Fact Question="it (far)" Answer="ǎdhu" />
-    <Fact Question="he" Answer="ǎvǎn" />
-    <Fact Question="you (plural)" Answer="neengǎlh" />
+    <Fact Question="it (far)" Answer="adhu" />
+    <Fact Question="he" Answer="avan" />
+    <Fact Question="you (plural)" Answer="neengaL" />
   </Lesson>
-  <Lesson Name="Pronouns 2">
-    <Fact Question="we (exclusive)" Answer="nāngǎlh" />
+  <Lesson Name="Pronouns 2" Id="5">
+    <Fact Question="we (exclusive)" Answer="nāngaL" />
     <Fact Question="you" Answer="nee" />
     <Fact Question="he/she (f.)" Answer="avar" />
     <Fact Question="it (near)" Answer="idhu" />
-    <Fact Question="they" Answer="ǎvǎngǎlh" />
+    <Fact Question="they" Answer="avangaL" />
     <Fact Question="we (inclusive)" Answer="nām" />
-    <Fact Question="they (f)" Answer="ǎvǎrgǎlh" />
+    <Fact Question="they (f)" Answer="avargaL" />
   </Lesson>
-  <Lesson Name="Present tense">
-    <Fact Question="present tense: I" Answer="-(k)kiraen" />
-    <Fact Question="present tense: you" Answer="-(k)kirāy" />
-    <Fact Question="present tense: he" Answer="-(k)kirān" />
-    <Fact Question="present tense: she" Answer="-(k)kirālh" />
-    <Fact Question="present tense: it" Answer="-(k)kirǎdhu" />
-    <Fact Question="present tense: you (p.)" Answer="-(k)kireergǎlh" />
+  <Lesson Name="Present tense" Id="6">
+    <Fact Question="present tense: I" Answer="-(k)kiRaen" />
+    <Fact Question="present tense: you" Answer="-(k)kiRāy" />
+    <Fact Question="present tense: he" Answer="-(k)kiRān" />
+    <Fact Question="present tense: she" Answer="-(k)kiRāL" />
+    <Fact Question="present tense: it" Answer="-(k)kiRadhu" />
+    <Fact Question="present tense: you (p.)" Answer="-(k)kiReergaL" />
   </Lesson>
-  <Lesson Name ="Using Present Tense">
-    <Fact Question="you eat outside" Answer="nee velhiyae sāppidarāy" />
-    <Fact Question="I sit there" Answer="nān ǎngae utkāraen" />
-    <Fact Question="you (p.) look inside" Answer="neengǎlh ullhae pārkireergǎlh" />
-    <Fact Question="she comes up" Answer="ǎvǎlh maelae varālh" />
-    <Fact Question="he looks here" Answer="ǎvǎn ingae pārkirān" />
-    <Fact Question="it goes down" Answer="ǎdhu keezhae pōhirǎdhu" />
+  <Lesson Name ="Using Present Tense" Id="7">
+    <Fact Question="you eat outside" Answer="nee veLiyae sāppidukiRāy" />
+    <Fact Question="I sit there" Answer="nān angae utkārukiRaen" />
+    <Fact Question="you (p.) look inside" Answer="neengaL ulLae pārkiReergaL" />
+    <Fact Question="she comes up" Answer="avaL maelae varukiRāL" />
+    <Fact Question="he looks here" Answer="avan ingae pārkiRān" />
+    <Fact Question="it goes down" Answer="adhu keezhae pōkiRadhu" />
   </Lesson>
-  <Lesson Name="Using Present Tense 2">
-    <Fact Question="I touch" Answer="nān thǒdukiraen" />
-    <Fact Question="you sit" Answer="nee thǒdukirāy" />
-    <Fact Question="he touches" Answer="ǎvǎn thǒdukirān" />
-    <Fact Question="she throws" Answer="ǎvǎlh veesukirālh" />
-    <Fact Question="you (p.) go" Answer="neengǎlh pōhireergǎlh" />
+  <Lesson Name="Using Present Tense 2" Id="8">
+    <Fact Question="I touch" Answer="nān thodukiRaen" />
+    <Fact Question="you sit" Answer="nee thodukiRāy" />
+    <Fact Question="he touches" Answer="avan thodukiRān" />
+    <Fact Question="she throws" Answer="avaL veesukiRāL" />
+    <Fact Question="you (p.) go" Answer="neengaL pōkiReergaL" />
   </Lesson>
-  <Lesson Name="Verbs 2">
-    <Fact Question="open" Answer="thirǎ" />
+  <Lesson Name="Verbs 2" Id="9">
+    <Fact Question="open" Answer="thira" />
     <Fact Question="buy" Answer="vāngu" />
   </Lesson>
-  <Lesson Name="Nouns">
-    <Fact Question="ball" Answer="pǎndhu" />
+  <Lesson Name="Nouns" Id="10">
+    <Fact Question="ball" Answer="pandhu" />
     <Fact Question="food" Answer="sāppādu" />
-    <Fact Question="door" Answer="kǎdhǎvu" />
+    <Fact Question="door" Answer="kadhavu" />
     <Fact Question="box" Answer="petti" />
   </Lesson>
-  <Lesson Name="Direct Objects">
+  <Lesson Name="Direct Objects" Id="11">
     <Fact Question="make direct object" Answer="-Ï" />
-    <Fact Question="ball (obj)" Answer="pǎndhÏ" />
+    <Fact Question="ball (obj)" Answer="pandhÏ" />
     <Fact Question="food (obj)" Answer="sāppādÏ" />
-    <Fact Question="door (obj)" Answer="kǎdhǎvÏ" />
+    <Fact Question="door (obj)" Answer="kadhavÏ" />
   </Lesson>
-  <Lesson Name="Pronoun Objects">
+  <Lesson Name="Pronoun Objects" Id="12">
     <Fact Question="me" Answer="ennÏ" />
     <Fact Question="you (obj)" Answer="unnÏ" />
-    <Fact Question="him" Answer="ǎvǎnÏ" />
-    <Fact Question="her" Answer="ǎvǎlhÏ" />
-    <Fact Question="it (obj)" Answer="ǎdhÏ" />
+    <Fact Question="him" Answer="avanÏ" />
+    <Fact Question="her" Answer="avaLÏ" />
+    <Fact Question="it (obj)" Answer="adhÏ" />
   </Lesson>
-  <Lesson Name="Using Direct Objects">
+  <Lesson Name="Using Direct Objects" Id="13">
     <Fact Question="look at me" Answer="ennÏ pār" />
-    <Fact Question="she throws the ball up" Answer="ǎvǎlh pǎndhÏ maelae veesukirālh" />
-    <Fact Question="throw the ball outside" Answer="pǎndhÏ velhiyae veesu" />
-    <Fact Question="I look at her" Answer="nān ǎvǎlhÏ pārkkiraen" />
-    <Fact Question="it touches him" Answer="ǎdhu ǎvǎnÏ thǒdukirǎdhu" />
+    <Fact Question="she throws the ball up" Answer="avaL pandhÏ maelae veesukiRāL" />
+    <Fact Question="throw the ball outside" Answer="pandhÏ veLiyae veesu" />
+    <Fact Question="I look at her" Answer="nān avaLÏ pārkkiRaen" />
+    <Fact Question="it touches him" Answer="adhu avanÏ thodukiRadhu" />
   </Lesson>
-  <Lesson Name="Nouns and Adjectives">
-    <Fact Question="this (adj)" Answer="indhǎ" />
-    <Fact Question="that (adj)" Answer="ǎndhǎ" />
-    <Fact Question="shirt" Answer="sǎttÏ" />
+  <Lesson Name="Nouns and Adjectives" Id="14">
+    <Fact Question="this (adj)" Answer="indha" />
+    <Fact Question="that (adj)" Answer="andha" />
+    <Fact Question="shirt" Answer="sattÏ" />
     <Fact Question="flower" Answer="poo" />
   </Lesson>
-  <Lesson Name="Present Tense 2">
-    <Fact Question="present tense: he (f.)" Answer="-(k)kirhār" />
-    <Fact Question="present tense: We" Answer="-(k)kirhōm" />
-    <Fact Question="present tense: they" Answer="-(k)kirhārgalh" />
+  <Lesson Name="Present Tense 2" Id="15">
+    <Fact Question="present tense: he (f.)" Answer="-(k)kiRār" />
+    <Fact Question="present tense: We" Answer="-(k)kiRōm" />
+    <Fact Question="present tense: they" Answer="-(k)kiRārgaL" />
   </Lesson>
-  <Lesson Name="Pronoun Objects 2">
-    <Fact Question="they (f. obj)" Answer="avargalhÏ" />
-    <Fact Question="we (ex. obj)" Answer="engalhÏ" />
+  <Lesson Name="Pronoun Objects 2" Id="16">
+    <Fact Question="they (f. obj)" Answer="avargaLÏ" />
+    <Fact Question="we (ex. obj)" Answer="engaLÏ" />
     <Fact Question="we (in. obj)" Answer="nammÏ" />
-    <Fact Question="you (p. obj)" Answer="ungalhÏ" />
+    <Fact Question="you (p. obj)" Answer="ungaLÏ" />
   </Lesson>
-  <Lesson Name="Using Present Tense 3">
-    <Fact Question="she buys that shirt" Answer="avalh andha sattÏyÏ vāngukirālh" />
-    <Fact Question="he (f.) opens this door" Answer="avar indha kadhavÏ thirakirār" />
+  <Lesson Name="Using Present Tense 3" Id="17">
+    <Fact Question="she buys that shirt" Answer="avaL andha sattÏyÏ vāngukiRāL" />
+    <Fact Question="he (f.) opens this door" Answer="avar indha kadhavÏ thirakiRār" />
     <Fact Question="open the box" Answer="petti thira" />
-    <Fact Question="they (f.) look up" Answer="avargalh maelae pārkirārgalh" />
+    <Fact Question="they (f.) look up" Answer="avargaL maelae pārkiRārgaL" />
   </Lesson>
-  <Lesson Name="Nouns">
+  <Lesson Name="Nouns" Id="18">
     <Fact Question="comb" Answer="cheeppu" />
     <Fact Question="father" Answer="appā" />
     <Fact Question="mother" Answer="ammā" />
     <Fact Question="hand" Answer="kÏ" />
     <Fact Question="knife" Answer="kathi" />
   </Lesson>
-  <Lesson Name="Nouns 2">
+  <Lesson Name="Nouns 2" Id="19">
     <Fact Question="ear" Answer="kādhu" />
     <Fact Question="housefly" Answer="ī" />
     <Fact Question="moon" Answer="nilā" />
     <Fact Question="work" Answer="vaelÏ" />
     <Fact Question="dog" Answer="nāy" />
   </Lesson>
-  <Lesson Name="Direct Object Rules">
+  <Lesson Name="Direct Object Rules" Id="20">
     <Fact Question="noun to object" Answer="add -vÏ" />
     <Fact Question="noun to object -u" Answer="replace with -Ï" />
     <Fact Question="noun to object -i, -Ï" Answer="add -yÏ" />
   </Lesson>
-  <Lesson Name="Direct Objects 2">
+  <Lesson Name="Direct Objects 2" Id="21">
     <Fact Question="mother (obj.)" Answer="ammāvÏ" />
     <Fact Question="father (obj.)" Answer="appāvÏ" />
     <Fact Question="comb (obj.)" Answer="cheeppÏ" />
     <Fact Question="hand (obj.)" Answer="kÏyÏ" />
     <Fact Question="knife (obj.)" Answer="kathiyÏ" />
   </Lesson>
-  <Lesson Name="Direct Objects 3">
+  <Lesson Name="Direct Objects 3" Id="22">
     <Fact Question="ear (obj.)" Answer="kādhÏ" />
     <Fact Question="housefly (obj.)" Answer="īyÏ" />
     <Fact Question="moon (obj.)" Answer="nilāvÏ" />
     <Fact Question="work (obj.)" Answer="vaelÏyÏ" />
     <Fact Question="dog (obj.)" Answer="nāyÏ" />
   </Lesson>
-  <Lesson Name="Verb Classes">
+  <Lesson Name="Verb Classes" Id="23">
     <Fact Question="do" Answer="sey (class 1)" />
-    <Fact Question="burn" Answer="erhi (class 2)" />
+    <Fact Question="burn" Answer="eRi (class 2)" />
     <Fact Question="buy" Answer="vāngu (class 3)" />
     <Fact Question="touch" Answer="thodu (class 4)" />
     <Fact Question="eat" Answer="unh (class 5)" />
     <Fact Question="see" Answer="pār (class 6)" />
     <Fact Question="open" Answer="thira (class 7)" />
   </Lesson>
-  <Lesson Name="Verb Classes 2">
+  <Lesson Name="Verb Classes 2" Id="24">
     <Fact Question="cry" Answer="azhu (class 1)" />
     <Fact Question="sit" Answer="utkār (class 2)" />
     <Fact Question="sleep" Answer="thoongu (class 3)" />
@@ -167,23 +167,23 @@
     <Fact Question="give" Answer="kodu (class 6)" />
     <Fact Question="walk" Answer="nada (class 7)" />
   </Lesson>
-  <Lesson Name="Verb Class K Rules">
+  <Lesson Name="Verb Class K Rules" Id="25">
     <Fact Question="How many k's for classes 1-5" Answer="1 k's" />
     <Fact Question="How many k's for classes 6-7" Answer="2 k's" />
     <Fact Question="What classes have 1 k?" Answer="classes 1-5" />
     <Fact Question="What classes have 2 k's?" Answer="classes 6-7" />
   </Lesson>
-  <Lesson Name="Using Present Tense 4">
-    <Fact Question="you cry" Answer="nee azhukirāy" />
-    <Fact Question="We give" Answer="nāngalh kodukkirom" />
-    <Fact Question="She walks" Answer="avalh nadakkirhālh" />
-    <Fact Question="Dog snacks" Answer="nāy thinnukirhadhu" />
-    <Fact Question="He puts" Answer="avan pōdukirhān" />
+  <Lesson Name="Using Present Tense 4" Id="26">
+    <Fact Question="you cry" Answer="nee azhukiRāy" />
+    <Fact Question="We give" Answer="nāngaL kodukkiRōm" />
+    <Fact Question="She walks" Answer="avaL nadakkiRāL" />
+    <Fact Question="Dog snacks" Answer="nāy thinnukiRadhu" />
+    <Fact Question="He puts" Answer="avan pōdukiRān" />
   </Lesson>
-  <Lesson Name="Using Present Tense 5">
-    <Fact Question="They sleep" Answer="avargalh thoongukirhārgalh" />
-    <Fact Question="I sit" Answer="nān utkarukiraen" />
-    <Fact Question="You (all) do" Answer="neengalh seykirheergalh" />
-    <Fact Question="mother open" Answer="ammā thirakkirālh" />
+  <Lesson Name="Using Present Tense 5" Id="27">
+    <Fact Question="They sleep" Answer="avargaL thoongukiRārgaL" />
+    <Fact Question="I sit" Answer="nān utkarukiRaen" />
+    <Fact Question="You (all) do" Answer="neengaL seykiReergaL" />
+    <Fact Question="mother open" Answer="ammā thirakkiRāL" />
   </Lesson>
 </Lessons>

@@ -13,7 +13,7 @@ namespace LearnTamil
         public string Answer { get; set; }
         public string AudioUri { get; set; }
 
-        public Fact(XElement xml, int lessonId, int factId)
+        public Fact(XElement xml, string lessonId, int factId)
         {
             this.Question = xml.Attribute("Question").Value;
             this.Answer = xml.Attribute("Answer").Value;
