@@ -13,14 +13,14 @@
     <Fact Question="outside" Answer="veLiyae" />
     <Fact Question="there" Answer="angae" />
     <Fact Question="here" Answer="ingae" />
-    <Fact Question="inside" Answer="ulLae" />
+    <Fact Question="inside" Answer="uLLae" />
     <Fact Question="up" Answer="maelae" />
   </Lesson>
   <Lesson Name="Commands" Id="3">
     <Fact Question="look there" Answer="angae pār" />
     <Fact Question="come up" Answer="maelae vā" />
     <Fact Question="sit down" Answer="keezhae utkār" />
-    <Fact Question="go inside" Answer="ulLae pō" />
+    <Fact Question="go inside" Answer="uLLae pō" />
     <Fact Question="throw outside" Answer="veLiyae veesu"/>
   </Lesson>
   <Lesson Name="Pronouns" Id="4">
@@ -51,7 +51,7 @@
   <Lesson Name ="Using Present Tense" Id="7">
     <Fact Question="you eat outside" Answer="nee veLiyae sāppidukiRāy" />
     <Fact Question="I sit there" Answer="nān angae utkārukiRaen" />
-    <Fact Question="you (p.) look inside" Answer="neengaL ulLae pārkiReergaL" />
+    <Fact Question="you (p.) look inside" Answer="neengaL uLLae pārkiReergaL" />
     <Fact Question="she comes up" Answer="avaL maelae varukiRāL" />
     <Fact Question="he looks here" Answer="avan ingae pārkiRān" />
     <Fact Question="it goes down" Answer="adhu keezhae pōkiRadhu" />
