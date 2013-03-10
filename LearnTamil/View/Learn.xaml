@@ -1,0 +1,153 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="LearnTamil.Learn"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:LearnTamil"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Landscape"  Orientation="LandscapeLeft"
+    shell:SystemTray.IsVisible="False">
+
+    <phone:PhoneApplicationPage.Resources>
+        <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+        <local:IsFlippedToCardRotationXConverter x:Key="IsFlippedToCardRotationXConverter" />
+
+        <Storyboard x:Name="FrontToBack90">
+            <DoubleAnimation Storyboard.TargetName="Card"
+                             Storyboard.TargetProperty="UIElement.Projection.PlaneProjection.RotationX"
+                             From="0" To="90"
+                             Duration="0:0:0.15" />
+        </Storyboard>
+
+        <Storyboard x:Name="FrontToBack180">
+            <DoubleAnimation Storyboard.TargetName="Card"
+                             Storyboard.TargetProperty="UIElement.Projection.PlaneProjection.RotationX"
+                             From="90" To="180"
+                             Duration="0:0:0.15" />
+        </Storyboard>
+
+        <Storyboard x:Name="BackToFront90">
+            <DoubleAnimation Storyboard.TargetName="Card"
+                             Storyboard.TargetProperty="UIElement.Projection.PlaneProjection.RotationX"
+                             From="180" To="90"
+                             Duration="0:0:0.15" />
+        </Storyboard>
+
+        <Storyboard x:Name="BackToFront0">
+            <DoubleAnimation Storyboard.TargetName="Card"
+                             Storyboard.TargetProperty="UIElement.Projection.PlaneProjection.RotationX"
+                             From="90" To="0"
+                             Duration="0:0:0.15" />
+        </Storyboard>
+
+        <Storyboard x:Name="NextCard">
+            <DoubleAnimation Storyboard.TargetName="Card"
+                             Storyboard.TargetProperty="UIElement.Projection.PlaneProjection.LocalOffsetX"
+                             From="50" To="0"
+                             Duration="0:0:0.2">
+                <DoubleAnimation.EasingFunction>
+                    <CircleEase />
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+            
+            <DoubleAnimation Storyboard.TargetName="Card"
+                             Storyboard.TargetProperty="UIElement.Opacity"
+                             Duration="0:0:0.1"
+                             From="0.25" To="1">
+                <DoubleAnimation.EasingFunction>
+                    <CircleEase />
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+        </Storyboard>
+
+        <Storyboard x:Name="PreviousCard">
+            <DoubleAnimation Storyboard.TargetName="Card"
+                             Storyboard.TargetProperty="UIElement.Projection.PlaneProjection.LocalOffsetX"
+                             Duration="0:0:0.2"
+                             From="-50" To="0">
+                <DoubleAnimation.EasingFunction>
+                    <CircleEase />
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+            
+            <DoubleAnimation Storyboard.TargetName="Card"
+                             Storyboard.TargetProperty="UIElement.Opacity"
+                             Duration="0:0:0.1"
+                             From="0.25" To="1">
+                <DoubleAnimation.EasingFunction>
+                    <CircleEase />
+                </DoubleAnimation.EasingFunction>
+            </DoubleAnimation>
+        </Storyboard>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="80" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        
+        <Style TargetType="Border">
+            <Setter Property="Grid.Row" Value="1" />
+            <Setter Property="Grid.Column" Value="1" />
+            <Setter Property="Background" Value="{StaticResource PhoneAccentBrush}" />
+        </Style>
+    </phone:PhoneApplicationPage.Resources>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar>
+            <!--<shell:ApplicationBarIconButton Text="done" IconUri="Assets/Icons/check.png" />-->
+            <shell:ApplicationBarIconButton Text="play" Click="OnPlay" IconUri="Assets/Icons/play.png" />
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+    
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="8*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="7*" />
+            <RowDefinition Height="3*" />
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Column="1" Orientation="Horizontal">
+            <TextBlock Text="{Binding Current}" FontSize="16" Margin="0, 0, 5, 0" />
+            <TextBlock Text="/" FontSize="12" Margin="0, 0, 5, 0" />
+            <TextBlock Text="{Binding Total}" FontSize="16" />
+        </StackPanel>
+        
+
+        <Border x:Name="Card" Tap="OnTap" ManipulationCompleted="OnFlick">
+            <Border.Projection>
+                <PlaneProjection RotationX="{Binding IsFlipped,
+                                             Converter={StaticResource IsFlippedToCardRotationXConverter}}" />
+            </Border.Projection>
+            <Grid>
+                <TextBlock Text="{Binding Card.Front}"
+                           Visibility="{Binding IsFlipped,
+                                        Converter={StaticResource BoolToVisibilityConverter},
+                                        ConverterParameter=true}"/>
+                <TextBlock Text="{Binding Card.Back}"
+                           Visibility="{Binding IsFlipped,
+                                        Converter={StaticResource BoolToVisibilityConverter}}">
+                    <TextBlock.Projection>
+                        <PlaneProjection RotationX="-180" />
+                    </TextBlock.Projection>
+                </TextBlock>
+            </Grid>
+        </Border>
+
+        <MediaElement Name="Player" Source="{Binding Path=Card.AudioUri}" AutoPlay="False" />
+    </Grid>
+
+</phone:PhoneApplicationPage>
