@@ -125,7 +125,7 @@
   </Lesson>
   <Lesson Name="Nouns 2">
     <Fact Question="ear" Answer="kādhu" />
-    <Fact Question="housefly" Answer="-i" />
+    <Fact Question="housefly" Answer="ī" />
     <Fact Question="moon" Answer="nilā" />
     <Fact Question="work" Answer="vaelÏ" />
     <Fact Question="dog" Answer="nāy" />
@@ -144,7 +144,7 @@
   </Lesson>
   <Lesson Name="Direct Objects 3">
     <Fact Question="ear (obj.)" Answer="kādhÏ" />
-    <Fact Question="housefly (obj.)" Answer="-iyÏ" />
+    <Fact Question="housefly (obj.)" Answer="īyÏ" />
     <Fact Question="moon (obj.)" Answer="nilāvÏ" />
     <Fact Question="work (obj.)" Answer="vaelÏyÏ" />
     <Fact Question="dog (obj.)" Answer="nāyÏ" />
@@ -184,6 +184,6 @@
     <Fact Question="They sleep" Answer="avargalh thoongukirhārgalh" />
     <Fact Question="I sit" Answer="nān utkarukiraen" />
     <Fact Question="You (all) do" Answer="neengalh seykirheergalh" />
-    <Fact Question="amma open" Answer="amma thirakkirālh" />
+    <Fact Question="mother open" Answer="ammā thirakkirālh" />
   </Lesson>
 </Lessons>
