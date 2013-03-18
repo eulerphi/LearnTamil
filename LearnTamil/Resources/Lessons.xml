@@ -58,7 +58,7 @@
   </Lesson>
   <Lesson Name="Using Present Tense 2" Id="8">
     <Fact Question="I touch" Answer="nān thodukiRaen" />
-    <Fact Question="you sit" Answer="nee thodukiRāy" />
+    <Fact Question="you sit" Answer="nee utkārukiRāy" />
     <Fact Question="he touches" Answer="avan thodukiRān" />
     <Fact Question="she throws" Answer="avaL veesukiRāL" />
     <Fact Question="you (p.) go" Answer="neengaL pōkiReergaL" />
@@ -116,14 +116,14 @@
     <Fact Question="open the box" Answer="petti thira" />
     <Fact Question="they (f.) look up" Answer="avargaL maelae pārkiRārgaL" />
   </Lesson>
-  <Lesson Name="Nouns" Id="18">
+  <Lesson Name="Nouns 2" Id="18">
     <Fact Question="comb" Answer="cheeppu" />
     <Fact Question="father" Answer="appā" />
     <Fact Question="mother" Answer="ammā" />
     <Fact Question="hand" Answer="kÏ" />
     <Fact Question="knife" Answer="kathi" />
   </Lesson>
-  <Lesson Name="Nouns 2" Id="19">
+  <Lesson Name="Nouns 3" Id="19">
     <Fact Question="ear" Answer="kādhu" />
     <Fact Question="housefly" Answer="ī" />
     <Fact Question="moon" Answer="nilā" />
@@ -185,5 +185,38 @@
     <Fact Question="I sit" Answer="nān utkarukiRaen" />
     <Fact Question="You (all) do" Answer="neengaL seykiReergaL" />
     <Fact Question="mother open" Answer="ammā thirakkiRāL" />
+  </Lesson>
+  <Lesson Name="Noun 4" Id="28">
+    <Fact Question="forest" Answer="kādu" />
+    <Fact Question="rope" Answer="kayiRu" />
+    <Fact Question="song" Answer="pāttu" />
+    <Fact Question="game" Answer="viLÏyāttu" />
+    <Fact Question="stomach" Answer="vayiRu" />
+  </Lesson>
+  <Lesson Name="Noun 5" Id="29">
+    <Fact Question="bump" Answer="maedu" />
+    <Fact Question="house" Answer="veedu" />
+    <Fact Question="cow" Answer="mādu" />
+    <Fact Question="towel" Answer="thuNdu" />
+    <Fact Question="goat" Answer="ādu" />
+  </Lesson>
+  <Lesson Name="Noun 6" Id="30">
+    <Fact Question="cat" Answer="poonÏ" />
+    <Fact Question="head" Answer="thalÏ" />
+    <Fact Question="cooked rice" Answer="chādum" />
+    <Fact Question="ladle" Answer="karaNdi" />
+    <Fact Question="elder sister" Answer="akkā" />
+  </Lesson>
+  <Lesson Name="Noun 7" Id="31">
+    <Fact Question="tree" Answer="maram" />
+    <Fact Question="fruit" Answer="pazham" />
+    <Fact Question="tooth" Answer="pal" />
+    <Fact Question="milk" Answer="pāl" />
+  </Lesson>
+  <Lesson Name="Noun 8" Id="32">
+    <Fact Question="stone" Answer="kal" />
+    <Fact Question="leg" Answer="kāl" />
+    <Fact Question="ghee" Answer="ney" />
+    <Fact Question="vegetable" Answer="kāy" />
   </Lesson>
 </Lessons>
