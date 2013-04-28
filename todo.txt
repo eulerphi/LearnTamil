@@ -1,0 +1,9 @@
+-Automatic daily lesson plan (20 items/day)
+-Pivot between daily lesson plan and all lessons
+-Store when to repeat an item
+-Make daily lesson plan pull from items to repeat and new lessons
+-Add UI to select when to repeat an item
+-Add ability to sign in
+-Add ability to download app state based on account
+-Add ability to update app state based on account
+-Add ability to auto sign in
